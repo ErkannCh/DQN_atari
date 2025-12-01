@@ -1,0 +1,18 @@
+env:
+  name: "ALE/Breakout-v5"
+  frame_skip: 4
+
+training:
+  total_frames: 500000
+  batch_size: 32
+  gamma: 0.99
+  replay_buffer_size: 100000
+  learning_rate: 0.00025
+
+epsilon:
+  start: 1.0
+  end: 0.1
+  decay_frames: 100000
+
+model:
+  input_shape: [4, 84, 84]

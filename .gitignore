@@ -1,1 +1,16 @@
 .venv/
+venv/
+
+__pycache__/
+*.pyc
+*.pyo
+
+*.egg-info/
+.eggs/
+
+.vscode/
+.idea/
+
+runs/
+
+.DS_Store

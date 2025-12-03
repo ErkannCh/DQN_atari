@@ -1,7 +1,0 @@
-numpy
-torch
-gymnasium[atari]
-ale-py
-autorom[accept-rom-license]
-pyyaml
-opencv-python
